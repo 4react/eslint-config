@@ -12,7 +12,7 @@ module.exports = {
     'import/max-dependencies': 'off',
     'import/named': 'error',
     'import/namespace': 'off',
-    'import/newline-after-import': ['warn', 'always'],
+    'import/newline-after-import': 'warn',
     'import/no-absolute-path': 'off',
     'import/no-amd': 'off',
     'import/no-anonymous-default-export': 'off',
