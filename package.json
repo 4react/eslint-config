@@ -13,7 +13,7 @@
   "author": "Matteo Zanoncello",
   "license": "MIT",
   "homepage": "https://github.com/zanomate/eslint-config",
-  "devDependencies": {
+  "dependencies": {
     "@typescript-eslint/eslint-plugin": "^2.3.2",
     "eslint": "^6.5.0",
     "eslint-plugin-import": "^2.18.2",
