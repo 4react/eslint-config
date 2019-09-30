@@ -1,3 +1,8 @@
 module.exports = {
-  'jsdoc/check-alignment': 'warn'
+  plugins: [
+    'jsdoc'
+  ],
+  rules: {
+    'jsdoc/check-alignment': 'warn'
+  }
 }

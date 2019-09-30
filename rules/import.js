@@ -1,3 +1,8 @@
 module.exports = {
-  'import/prefer-default-export': 'off'
+  plugins: [
+    'import'
+  ],
+  rules: {
+    'import/prefer-default-export': 'off'
+  }
 }
