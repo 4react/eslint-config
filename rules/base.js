@@ -6,6 +6,7 @@ module.exports = {
     'brace-style': 'off',
     'camelcase': 'off',
     'class-methods-use-this': ['off'],
+    'comma-dangle': ['warn', 'never'],
     'func-call-spacing': 'off',
     'indent': ['off'],
     'jsx-quotes': ['error', 'prefer-double'],

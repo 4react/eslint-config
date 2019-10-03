@@ -37,7 +37,7 @@ module.exports = {
     'import/no-unassigned-import': 'off',
     'import/no-unresolved': 'error',
     'import/no-unused-modules': ['warn', {
-      missingExports: true,
+      missingExports: false,
       unusedExports: true,
       src: ['*']
     }],

@@ -103,7 +103,7 @@ module.exports = {
     'react/jsx-no-literals': 'off',
     'react/jsx-no-target-blank': ['error', { enforceDynamicLinks: 'always' }],
     'react/jsx-no-undef': 'error',
-    'react/jsx-no-useless-fragment': 'error',
+    // 'react/jsx-no-useless-fragment': 'error',
     'react/jsx-one-expression-per-line': ['error', { allow: 'single-child' }],
     'react/jsx-curly-brace-presence': ['error', { children: 'never' }],
     'react/jsx-fragments': ['error', 'syntax'],
