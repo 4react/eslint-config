@@ -1,7 +1,7 @@
 {
   "name": "@zanomate/eslint-config",
-  "version": "0.1.2",
-  "description": "zanomate's ESLint config",
+  "version": "0.2.0",
+  "description": "Zanomate's ESLint config",
   "main": "index.js",
   "scripts": {
     "lint": "eslint ."
