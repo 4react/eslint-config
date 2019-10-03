@@ -9,6 +9,7 @@ module.exports = {
     'func-call-spacing': 'off',
     'indent': ['off'],
     'jsx-quotes': ['error', 'prefer-double'],
+    'linebreak-style': 'off',
     'no-empty-function': 'off',
     'no-empty-interface': 'off',
     'no-extra-parens': 'off',

@@ -36,7 +36,11 @@ module.exports = {
     'import/no-self-import': 'error',
     'import/no-unassigned-import': 'off',
     'import/no-unresolved': 'error',
-    'import/no-unused-modules': 'warn',
+    'import/no-unused-modules': ['warn', {
+      missingExports: true,
+      unusedExports: true,
+      src: ['*']
+    }],
     'import/no-useless-path-segments': 'error',
     'import/no-webpack-loader-syntax': 'off',
     'import/order': ['warn', {
