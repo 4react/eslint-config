@@ -16,6 +16,7 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^2.3.2",
     "eslint": "^6.5.0",
+    "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jsdoc": "^15.9.5",
     "eslint-plugin-react": "^7.14.3",
@@ -24,6 +25,7 @@
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.3.2",
     "eslint": "^6.5.0",
+    "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jsdoc": "^15.9.5",
     "eslint-plugin-react": "^7.14.3",

@@ -1,4 +1,7 @@
 module.exports = {
+  plugins: [
+    'airbnb-base'
+  ],
   rules: {
     'brace-style': 'off',
     'camelcase': 'off',
