@@ -60,10 +60,7 @@ module.exports = {
     // require let or const instead of var
     'no-var': 'error',
     // require or disallow method and property shorthand syntax for object literals
-    'object-shorthand': ['error', 'consistent-as-needed', {
-      ignoreConstructors: false,
-      avoidQuotes: true,
-    }],
+    'object-shorthand': ['error', 'consistent-as-needed'],
     // require using arrow functions for callbacks
     'prefer-arrow-callback': ['error', {
       allowNamedFunctions: false,

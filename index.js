@@ -27,7 +27,7 @@ module.exports = {
     './rules/base/node.js',
     './rules/base/strict.js',
     './rules/base/style.js',
-    './rules/base/variable.js',
+    './rules/base/variables.js',
     './rules/plugins/import',
     './rules/plugins/jsdoc',
     './rules/plugins/react',
