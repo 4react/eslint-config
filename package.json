@@ -1,7 +1,6 @@
 {
   "name": "@zanomate/eslint-config",
-  "version": "0.2.4",
-
+  "version": "0.3.0",
   "description": "Zanomate's ESLint config",
   "main": "index.js",
   "scripts": {
@@ -16,8 +15,8 @@
   "homepage": "https://github.com/zanomate/eslint-config",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^2.3.2",
+    "confusing-browser-globals": "^1.0.9",
     "eslint": "^6.5.0",
-    "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jsdoc": "^15.9.5",
     "eslint-plugin-react": "^7.14.3",
@@ -25,8 +24,8 @@
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.3.2",
+    "confusing-browser-globals": "^1.0.9",
     "eslint": "^6.5.0",
-    "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jsdoc": "^15.9.5",
     "eslint-plugin-react": "^7.14.3",

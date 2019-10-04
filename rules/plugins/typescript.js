@@ -1,3 +1,5 @@
+/* global module */
+
 module.exports = {
   plugins: [
     '@typescript-eslint'
@@ -36,7 +38,13 @@ module.exports = {
     '@typescript-eslint/no-empty-function': 'warn',
     '@typescript-eslint/no-empty-interface': 'warn',
     '@typescript-eslint/no-explicit-any': 'error',
-    '@typescript-eslint/no-extra-parens': 'warn',
+    '@typescript-eslint/no-extra-parens': ['warn', 'all', {
+      conditionalAssign: true,
+      nestedBinaryExpressions: false,
+      returnAssign: false,
+      ignoreJSX: 'all', // managed by eslint-plugin-react
+      enforceForArrowConditionals: false,
+    }],
     '@typescript-eslint/no-extraneous-class': 'error',
     '@typescript-eslint/no-floating-promises': 'warn',
     '@typescript-eslint/no-for-in-array': 'off',
@@ -66,7 +74,7 @@ module.exports = {
     '@typescript-eslint/prefer-regexp-exec': 'error',
     '@typescript-eslint/prefer-string-starts-ends-with': 'warn',
     '@typescript-eslint/promise-function-async': 'error',
-    '@typescript-eslint/quotes': ['warn', 'single'],
+    '@typescript-eslint/quotes': ['warn', 'single', { avoidEscape: true }],
     '@typescript-eslint/require-array-sort-compare': 'off',
     '@typescript-eslint/require-await': 'warn',
     '@typescript-eslint/restrict-plus-operands': 'warn',
