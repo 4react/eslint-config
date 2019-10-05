@@ -19,7 +19,7 @@ module.exports = {
     // require default cases in switch statements
     'default-case': ['error', { commentPattern: '^no default' }],
     // enforce default parameters to be last
-    'default-param-last': 'error',
+    'default-param-last': 'off',
     // enforce consistent newlines before and after dots
     'dot-location': 'off',
     // enforce dot notation whenever possible
