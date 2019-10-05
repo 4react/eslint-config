@@ -50,7 +50,7 @@ module.exports = {
       'newlines-between': 'never'
     }],
     'import/prefer-default-export': 'off',
-    'import/unambiguous': 'warn',
+    'import/unambiguous': 'off',
     'dynamic-import-chunkname': 'off'
   }
 }

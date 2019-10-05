@@ -333,13 +333,7 @@ module.exports = {
     // enforce consistent spacing after the // or /* in a comment
     'spaced-comment': ['error', 'always', {
       line: {
-        exceptions: ['-', '+'],
-        markers: ['=', '!'], // space here to support sprockets directives
-      },
-      block: {
-        exceptions: ['-', '+'],
-        markers: ['=', '!', ':', '::'], // space here to support sprockets directives and flow comment types
-        balanced: true,
+        markers: ['/'],
       }
     }],
     // enforce spacing around colons of switch statements
