@@ -82,7 +82,7 @@ module.exports = {
     '@typescript-eslint/restrict-plus-operands': 'warn',
     '@typescript-eslint/semi': ['warn', 'never'],
     '@typescript-eslint/strict-boolean-expressions': 'off',
-    '@typescript-eslint/triple-slash-reference': 'error',
+    '@typescript-eslint/triple-slash-reference': 'off',
     '@typescript-eslint/type-annotation-spacing': 'warn',
     '@typescript-eslint/typedef': 'off',
     '@typescript-eslint/unbound-method': 'error',
