@@ -57,7 +57,7 @@ module.exports = {
     '@typescript-eslint/no-parameter-properties': 'off',
     '@typescript-eslint/no-require-imports': 'warn',
     '@typescript-eslint/no-this-alias': 'error',
-    '@typescript-eslint/no-type-alias': 'error',
+    '@typescript-eslint/no-type-alias': 'off',
     '@typescript-eslint/no-unnecessary-condition': ['error', {
       ignoreRhs: true
     }],
