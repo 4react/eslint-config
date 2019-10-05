@@ -19,7 +19,7 @@ module.exports = {
     '@typescript-eslint/class-name-casing': 'error',
     '@typescript-eslint/consistent-type-assertions': 'error',
     '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
-    '@typescript-eslint/explicit-function-return-type': 'error',
+    '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/explicit-member-accessibility': ['error', { accessibility: 'no-public'} ],
     '@typescript-eslint/func-call-spacing': ['error', 'never'],
     '@typescript-eslint/generic-type-naming': 'off',
