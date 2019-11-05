@@ -148,7 +148,7 @@ module.exports = {
     // require using Error objects as Promise rejection reasons
     'prefer-promise-reject-errors': ['error', { allowEmptyReject: true }],
     // disallow use of the RegExp constructor in favor of regular expression literals
-    'prefer-regex-literals': 'warn',
+    // 'prefer-regex-literals': 'warn',
     // enforce the consistent use of the radix argument when using parseInt()
     'radix': 'off',
     // disallow async functions which have no await expression

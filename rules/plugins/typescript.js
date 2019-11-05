@@ -6,14 +6,14 @@ module.exports = {
   ],
   rules: {
     '@typescript-eslint/adjacent-overload-signatures': 'warn',
-    '@typescript-eslint/array-type': ['warn', { default: 'array' }],
+    '@typescript-eslint/array-type': ['warn', 'array'],
     '@typescript-eslint/await-thenable': 'error',
     '@typescript-eslint/ban-ts-ignore': 'warn',
     '@typescript-eslint/ban-types': 'error',
-    '@typescript-eslint/brace-style': ['warn', '1tbs'],
+    // '@typescript-eslint/brace-style': ['warn', '1tbs'],
     '@typescript-eslint/camelcase': ['error', { properties: 'always' }],
     '@typescript-eslint/class-name-casing': 'error',
-    '@typescript-eslint/consistent-type-assertions': 'error',
+    // '@typescript-eslint/consistent-type-assertions': 'error',
     '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/explicit-member-accessibility': ['error', { accessibility: 'no-public'} ],
@@ -54,11 +54,11 @@ module.exports = {
     '@typescript-eslint/no-require-imports': 'warn',
     '@typescript-eslint/no-this-alias': 'error',
     '@typescript-eslint/no-type-alias': 'off',
-    '@typescript-eslint/no-unnecessary-condition': ['error', {
-      ignoreRhs: true
-    }],
+    // '@typescript-eslint/no-unnecessary-condition': ['error', {
+    //   ignoreRhs: true
+    // }],
     '@typescript-eslint/no-unnecessary-qualifier': 'error',
-    '@typescript-eslint/no-unnecessary-type-arguments': 'warn',
+    // '@typescript-eslint/no-unnecessary-type-arguments': 'warn',
     '@typescript-eslint/no-unnecessary-type-assertion': 'warn',
     '@typescript-eslint/no-unused-vars': 'warn',
     '@typescript-eslint/no-use-before-define': 'off',
@@ -72,7 +72,7 @@ module.exports = {
     '@typescript-eslint/prefer-regexp-exec': 'error',
     '@typescript-eslint/prefer-string-starts-ends-with': 'warn',
     '@typescript-eslint/promise-function-async': 'error',
-    '@typescript-eslint/quotes': ['warn', 'single', { avoidEscape: true }],
+    // '@typescript-eslint/quotes': ['warn', 'single', { avoidEscape: true }],
     '@typescript-eslint/require-array-sort-compare': 'off',
     '@typescript-eslint/require-await': 'warn',
     '@typescript-eslint/restrict-plus-operands': 'warn',
