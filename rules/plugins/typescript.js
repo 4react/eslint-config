@@ -4,10 +4,6 @@ module.exports = {
   plugins: [
     '@typescript-eslint'
   ],
-  extends: [
-    'plugin:@typescript-eslint/recommended',
-    'plugin:@typescript-eslint/recommended-requiring-type-checking'
-  ],
   rules: {
     '@typescript-eslint/adjacent-overload-signatures': 'warn',
     '@typescript-eslint/array-type': ['warn', { default: 'array' }],

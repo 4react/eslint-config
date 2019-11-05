@@ -268,10 +268,10 @@ module.exports = {
     'object-curly-spacing': ['error', 'always'],
     // enforce consistent spacing inside braces
     'object-curly-newline': ['error', {
-      ObjectExpression: { minProperties: 4, multiline: true, consistent: true },
-      ObjectPattern: { minProperties: 4, multiline: true, consistent: true },
-      ImportDeclaration: { minProperties: 4, multiline: true, consistent: true },
-      ExportDeclaration: { minProperties: 4, multiline: true, consistent: true },
+      ObjectExpression: { minProperties: 4, multiline: true },
+      ObjectPattern: { multiline: true, consistent: true },
+      ImportDeclaration: { minProperties: 4, multiline: true },
+      ExportDeclaration: { minProperties: 4, multiline: true }
     }],
     // enforce placing object properties on separate lines
     'object-property-newline': ['error', {
