@@ -1,6 +1,6 @@
 {
   "name": "@zanomate/eslint-config",
-  "version": "0.4.8",
+  "version": "0.4.9",
   "description": "Zanomate's ESLint config",
   "main": "index.js",
   "scripts": {
@@ -14,22 +14,22 @@
   "license": "MIT",
   "homepage": "https://github.com/zanomate/eslint-config",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.3.2",
+    "@typescript-eslint/eslint-plugin": "^2.6.1",
     "confusing-browser-globals": "^1.0.9",
-    "eslint": "^6.5.0",
+    "eslint": "^6.6.0",
     "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-jsdoc": "^15.9.5",
-    "eslint-plugin-react": "^7.14.3",
-    "eslint-plugin-react-hooks": "^2.1.1"
+    "eslint-plugin-jsdoc": "^17.1.0",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react-hooks": "^2.2.0"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.3.2",
+    "@typescript-eslint/eslint-plugin": "^2.6.1",
     "confusing-browser-globals": "^1.0.9",
-    "eslint": "^6.5.0",
+    "eslint": "^6.6.0",
     "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-jsdoc": "^15.9.5",
-    "eslint-plugin-react": "^7.14.3",
-    "eslint-plugin-react-hooks": "^2.1.1"
+    "eslint-plugin-jsdoc": "^17.1.0",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react-hooks": "^2.2.0"
   },
   "files": [
     "index.js",

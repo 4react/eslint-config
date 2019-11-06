@@ -6,7 +6,7 @@ module.exports = {
   ],
   rules: {
     '@typescript-eslint/adjacent-overload-signatures': 'warn',
-    '@typescript-eslint/array-type': ['warn', 'array'],
+    '@typescript-eslint/array-type': ['warn', { default: 'array' }],
     '@typescript-eslint/await-thenable': 'error',
     '@typescript-eslint/ban-ts-ignore': 'warn',
     '@typescript-eslint/ban-types': 'error',
