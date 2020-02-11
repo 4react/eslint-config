@@ -82,7 +82,7 @@ module.exports = {
     }],
     'react/jsx-curly-spacing': ['error', 'never', { allowMultiline: true }],
     'react/jsx-equals-spacing': ['error', 'never'],
-    'react/jsx-filename-extension': ['error', { extensions: ['.ts', 'tsx'] }],
+    'react/jsx-filename-extension': ['error', { extensions: ['.js', '.jsx', '.ts', 'tsx'] }],
     'react/jsx-first-prop-new-line': ['error', 'multiline-multiprop'],
     'react/jsx-handler-names': ['error', {
       eventHandlerPrefix: 'handle',

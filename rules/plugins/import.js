@@ -37,7 +37,9 @@ module.exports = {
     'import/no-restricted-paths': 'off',
     'import/no-self-import': 'error',
     'import/no-unassigned-import': 'off',
-    'import/no-unresolved': 'error',
+    'import/no-unresolved': ['error', {
+      'ignore': ['\\.storybook']
+    }],
     'import/no-unused-modules': ['warn', {
       missingExports: false,
       unusedExports: true,

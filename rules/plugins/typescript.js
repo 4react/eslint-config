@@ -7,7 +7,7 @@ module.exports = {
   rules: {
     '@typescript-eslint/adjacent-overload-signatures': 'warn',
     '@typescript-eslint/array-type': ['warn', { default: 'array' }],
-    '@typescript-eslint/await-thenable': 'error',
+    "@typescript-eslint/await-thenable": "off",
     '@typescript-eslint/ban-ts-ignore': 'warn',
     '@typescript-eslint/ban-types': 'error',
     // '@typescript-eslint/brace-style': ['warn', '1tbs'],
@@ -33,7 +33,7 @@ module.exports = {
     '@typescript-eslint/no-array-constructor': 'error',
     '@typescript-eslint/no-empty-function': 'warn',
     '@typescript-eslint/no-empty-interface': 'warn',
-    '@typescript-eslint/no-explicit-any': 'error',
+    "@typescript-eslint/no-explicit-any": "off",
     '@typescript-eslint/no-extra-parens': ['warn', 'all', {
       conditionalAssign: true,
       nestedBinaryExpressions: false,
@@ -45,7 +45,7 @@ module.exports = {
     '@typescript-eslint/no-floating-promises': 'warn',
     '@typescript-eslint/no-for-in-array': 'off',
     '@typescript-eslint/no-inferrable-types': 'off',
-    '@typescript-eslint/no-magic-numbers': 'warn',
+    "@typescript-eslint/no-magic-numbers": "off",
     '@typescript-eslint/no-misused-new': 'error',
     '@typescript-eslint/no-misused-promises': 'error',
     '@typescript-eslint/no-namespace': 'off',
