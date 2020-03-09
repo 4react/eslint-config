@@ -1,17 +1,18 @@
 /* global module */
 
 module.exports = {
-  parser: 'babel-eslint',
+  parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaFeatures: {
       jsx: true
-    }
+    },
+    project: './tsconfig.json'
   },
   settings: {
     'import/resolver': {
       node: {
         paths: ['src'],
-        extensions: ['.js', '.jsx', '.json']
+        extensions: ['.js', '.jsx', '.ts', '.tsx', '.json']
       }
     }
   },
@@ -29,6 +30,7 @@ module.exports = {
     './rules/base/variables.js',
     './rules/plugins/import',
     './rules/plugins/jsdoc',
-    './rules/plugins/react'
+    './rules/plugins/react',
+    './rules/plugins/typescript'
   ]
 }

@@ -41,8 +41,7 @@ module.exports = {
     // disallow else blocks after return statements in if statements
     'no-else-return': ['error', { allowElseIf: false }],
     // disallow empty functions
-    // @typescript-eslint
-    'no-empty-function': 'off',
+    'no-empty-function': 'warn',
     // disallow empty destructuring patterns
     'no-empty-pattern': 'error',
     // disallow null comparisons without type-checking operators
@@ -152,7 +151,7 @@ module.exports = {
     // enforce the consistent use of the radix argument when using parseInt()
     'radix': 'off',
     // disallow async functions which have no await expression
-    'require-await': 'off',
+    'require-await': 'warn',
     // enforce the use of u flag on RegExp
     'require-unicode-regexp': 'off',
     // require var declarations be placed at the top of their containing scope

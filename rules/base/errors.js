@@ -37,7 +37,6 @@ module.exports = {
     // disallow unnecessary boolean casts
     'no-extra-boolean-cast': 'error',
     // disallow unnecessary parentheses
-    // managed by @typescript-eslint/eslint-plugin
     'no-extra-parens': 'off',
     // disallow unnecessary semicolons
     'no-extra-semi': 'error',

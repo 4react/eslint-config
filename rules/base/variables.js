@@ -21,7 +21,7 @@ module.exports = {
     // disallow initializing variables to undefined
     'no-undef-init': 'off',
     // disallow the use of undefined as an identifier
-    'no-undefined': 'error',
+    'no-undefined': 'off',
     // disallow unused variables
     'no-unused-vars': ['error', { args: 'after-used' }],
     // disallow the use of variables before they are defined

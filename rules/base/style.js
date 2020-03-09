@@ -11,13 +11,9 @@ module.exports = {
     // disallow or enforce spaces inside of blocks after opening block and before closing block
     'block-spacing': ['error', 'always'],
     // enforce consistent brace style for blocks
-    // @typescript-eslint
-    // 'brace-style': ['error', '1tbs', { allowSingleLine: true }],
-    'brace-style': 'off',
+    'brace-style': ['warn', '1tbs', { allowSingleLine: true }],
     // enforce camelcase naming convention
-    // @typescript-eslint
-    // 'camelcase': ['error', { properties: 'never', ignoreDestructuring: false }],
-    'camelcase': 'off',
+    'camelcase': ['error', { properties: 'never', ignoreDestructuring: false }],
     // enforce or disallow capitalization of the first letter of a comment
     'capitalized-comments': ['off', 'never', {
       line: {
@@ -60,9 +56,7 @@ module.exports = {
     // enforce line breaks between arguments of a function call
     'function-call-argument-newline': ['off', 'consistent'],
     // require or disallow spacing between function identifiers and their invocations
-    // @typescript-eslint
-    // 'func-call-spacing': ['error', 'never'],
-    'func-call-spacing': 'off',
+    'func-call-spacing': ['error', 'never'],
     // require function names to match the name of the variable or property to which they are assigned
     'func-name-matching': ['off', 'always', {
       includeCommonJSModuleExports: false,
@@ -83,32 +77,30 @@ module.exports = {
     // enforce the location of arrow function bodies
     'implicit-arrow-linebreak': ['error', 'beside'],
     // enforce consistent indentation
-    // @typescript-eslint
-    // 'indent': ['error', 2, {
-    //   SwitchCase: 1,
-    //   VariableDeclarator: 1,
-    //   outerIIFEBody: 1,
-    //   // MemberExpression: null,
-    //   FunctionDeclaration: {
-    //     parameters: 1,
-    //     body: 1
-    //   },
-    //   FunctionExpression: {
-    //     parameters: 1,
-    //     body: 1
-    //   },
-    //   CallExpression: {
-    //     arguments: 1
-    //   },
-    //   ArrayExpression: 1,
-    //   ObjectExpression: 1,
-    //   ImportDeclaration: 1,
-    //   flatTernaryExpressions: false,
-    //   // list derived from https://github.com/benjamn/ast-types/blob/HEAD/def/jsx.js
-    //   ignoredNodes: ['JSXElement', 'JSXElement > *', 'JSXAttribute', 'JSXIdentifier', 'JSXNamespacedName', 'JSXMemberExpression', 'JSXSpreadAttribute', 'JSXExpressionContainer', 'JSXOpeningElement', 'JSXClosingElement', 'JSXText', 'JSXEmptyExpression', 'JSXSpreadChild'],
-    //   ignoreComments: false
-    // }],
-    'indent': 'off',
+    'indent': ['error', 2, {
+      SwitchCase: 1,
+      VariableDeclarator: 1,
+      outerIIFEBody: 1,
+      // MemberExpression: null,
+      FunctionDeclaration: {
+        parameters: 1,
+        body: 1
+      },
+      FunctionExpression: {
+        parameters: 1,
+        body: 1
+      },
+      CallExpression: {
+        arguments: 1
+      },
+      ArrayExpression: 1,
+      ObjectExpression: 1,
+      ImportDeclaration: 1,
+      flatTernaryExpressions: false,
+      // list derived from https://github.com/benjamn/ast-types/blob/HEAD/def/jsx.js
+      ignoredNodes: ['JSXElement', 'JSXElement > *', 'JSXAttribute', 'JSXIdentifier', 'JSXNamespacedName', 'JSXMemberExpression', 'JSXSpreadAttribute', 'JSXExpressionContainer', 'JSXOpeningElement', 'JSXClosingElement', 'JSXText', 'JSXEmptyExpression', 'JSXSpreadChild'],
+      ignoreComments: false
+    }],
     // enforce the consistent use of either double or single quotes in JSX attributes
     'jsx-quotes': ['error', 'prefer-double'],
     // enforce consistent spacing between keys and values in object literal properties
@@ -130,7 +122,7 @@ module.exports = {
       applyDefaultPatterns: true,
     }],
     // enforce consistent linebreak style
-    'linebreak-style': ['error', 'unix'],
+    'linebreak-style': 'off',
     // require empty lines around comments
     'lines-around-comment': 'off',
     // require or disallow an empty line between class members
@@ -138,7 +130,7 @@ module.exports = {
     // enforce a maximum depth that blocks can be nested
     'max-depth': ['off', 4],
     // enforce a maximum line length
-    'max-len': ['error', 100, 2, {
+    'max-len': ['warn', 120, 2, {
       ignoreUrls: true,
       ignoreComments: false,
       ignoreRegExpLiterals: true,
@@ -267,12 +259,7 @@ module.exports = {
     // enforce consistent line breaks inside braces
     'object-curly-spacing': ['error', 'always'],
     // enforce consistent spacing inside braces
-    'object-curly-newline': ['error', {
-      ObjectExpression: { minProperties: 4, multiline: true },
-      ObjectPattern: { multiline: true, consistent: true },
-      ImportDeclaration: { minProperties: 4, multiline: true },
-      ExportDeclaration: { minProperties: 4, multiline: true }
-    }],
+    'object-curly-newline': 'off',
     // enforce placing object properties on separate lines
     'object-property-newline': ['error', {
       allowAllPropertiesOnSameLine: true,
