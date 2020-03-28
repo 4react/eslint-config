@@ -1,25 +1,29 @@
 # @zanomate/eslint-config
-Zanomate's ESlint configuration for **TypeScript + React** projects.
-> **NOTE**: this configuration requires **@typescript-eslint/parser** as ESlint parser
+**ESlint** configuration for **React** projects. Based on:
+ - **`@typescript-eslint/eslint-plugin`**
+ - **`eslint-plugin-import`**
+ - **`eslint-plugin-react`**
+ - **`eslint-plugin-react-hooks`**
+ - **`eslint-plugin-jsdoc`**
 
 ## Usage
+
 Import package as devDependency
 ```
 npm i -D @zanomate/eslint-config
 ```
 
-Extends configuration in `.eslintrc`
+Extends configuration in `.eslintrc`:
+#### with **JavaScript**
 ```json
 {
   "extends": "@zanomate"
 }
 ```
 
-## Details
-`@zanomate` configuration is based on the following plugins:
- - **`@typescript-eslint/eslint-plugin`**
- - **`eslint-plugin-import`**
- - **`eslint-plugin-react`**
- - **`eslint-plugin-react-hooks`**
- - **`eslint-plugin-jsdoc`**
- 
+#### with **TypeScript**
+```json
+{
+  "extends": "@zanomate/eslint-config/typescript"
+}
+```
