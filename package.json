@@ -1,18 +1,18 @@
 {
-  "name": "@zanomate/eslint-config",
+  "name": "@4react/eslint-config",
   "version": "2020.1.2",
-  "description": "Zanomate's ESLint config",
+  "description": "@4react ESLint config",
   "main": "index.js",
   "scripts": {
     "lint": "eslint ."
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zanomate/eslint-config"
+    "url": "https://github.com/4react/eslint-config"
   },
   "author": "Matteo Zanoncello",
   "license": "MIT",
-  "homepage": "https://github.com/zanomate/eslint-config",
+  "homepage": "https://github.com/4react/eslint-config",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^2.25.0",
     "@typescript-eslint/parser": "^2.25.0",

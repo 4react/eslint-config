@@ -1,4 +1,4 @@
-# @zanomate/eslint-config
+# @4react / eslint-config
 **ESlint** configuration for **React** projects. Based on:
  - **`@typescript-eslint/eslint-plugin`**
  - **`eslint-plugin-import`**
@@ -10,20 +10,20 @@
 
 Import package as devDependency
 ```
-npm i -D @zanomate/eslint-config
+npm i -D @4react/eslint-config
 ```
 
 Extends configuration in `.eslintrc`:
 #### with **JavaScript**
 ```json
 {
-  "extends": "@zanomate"
+  "extends": "@4react"
 }
 ```
 
 #### with **TypeScript**
 ```json
 {
-  "extends": "@zanomate/eslint-config/typescript"
+  "extends": "@4react/eslint-config/typescript"
 }
 ```
