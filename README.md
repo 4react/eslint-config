@@ -1,6 +1,6 @@
 # @4react / eslint-config
 
-**ESlint** configuration for **React** projects.
+**ESlint** configurations for React Applications.
 
 ## Usage with JavaScript
 JavaScript configuration use **babel-eslint** parser.
@@ -38,6 +38,7 @@ Extends configuration in `.eslintrc` file:
 
 List of all used plugins:
  - **`eslint-plugin-import`**
+ - **`eslint-plugin-node`**
  - **`eslint-plugin-react`**
  - **`eslint-plugin-react-hooks`**
  - **`eslint-plugin-jsdoc`**
