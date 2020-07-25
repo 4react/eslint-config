@@ -24,6 +24,8 @@ module.exports = {
     'no-debugger': 'error',
     // disallow duplicate arguments in function definitions
     'no-dupe-args': 'error',
+    // disallow duplicate conditions in if-else-if chains
+    'no-dupe-else-if': 'error',
     // disallow duplicate keys in object literals
     'no-dupe-keys': 'error',
     // disallow duplicate case labels
@@ -50,14 +52,20 @@ module.exports = {
     'no-invalid-regexp': 'error',
     // disallow irregular whitespace
     'no-irregular-whitespace': 'error',
+    // disallow literal numbers that lose precision
+    'no-loss-of-precision': 'warn',
     // disallow characters which are made with multiple code points in character class syntax
     'no-misleading-character-class': 'error',
     // disallow calling global object properties as functions
     'no-obj-calls': 'error',
+    // disallow returning values from Promise executor functions
+    '	no-promise-executor-return': 'warn',
     // disallow calling some Object.prototype methods directly on objects
     'no-prototype-builtins': 'error',
     // disallow multiple spaces in regular expressions
     'no-regex-spaces': 'error',
+    // disallow returning values from setters
+    'no-setter-return': 'error',
     // disallow sparse arrays
     'no-sparse-arrays': 'error',
     // disallow template literal placeholder syntax in regular strings
@@ -66,13 +74,14 @@ module.exports = {
     'no-unexpected-multiline': 'error',
     // disallow unreachable code after return, throw, continue, and break statements
     'no-unreachable': 'error',
+    // disallow loops with a body that allows only one iteration
+    'no-unreachable-loop': 'off',
     // disallow control flow statements in finally blocks
     'no-unsafe-finally': 'error',
     // disallow negating the left operand of relational operators
     'no-unsafe-negation': 'error',
-    // disallow negation of the left operand of an in expression
-    // deprecated in favor of no-unsafe-negation
-    'no-negated-in-lhs': 'off',
+    // disallow useless backreferences in regular expressions
+    'no-useless-backreference': 'off',
     // disallow assignments that can lead to race conditions due to usage of await or yield
     'require-atomic-updates': 'off',
     // require calls to isNaN() when checking for NaN

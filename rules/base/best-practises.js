@@ -18,6 +18,8 @@ module.exports = {
     'curly': ['error', 'multi-line'],
     // require default cases in switch statements
     'default-case': ['error', { commentPattern: '^no default' }],
+    // enforce default clauses in switch statements to be last
+    'default-case-last': 'off',
     // enforce default parameters to be last
     'default-param-last': 'off',
     // enforce consistent newlines before and after dots
@@ -26,6 +28,8 @@ module.exports = {
     'dot-notation': ['error', { allowKeywords: true }],
     // require the use of === and !==
     'eqeqeq': ['error', 'always'],
+    // require grouped accessor pairs in object literals and classes
+    'grouped-accessor-pairs': 'off',
     // require for-in loops to include an if statement
     'guard-for-in': 'error',
     // enforce a maximum number of classes per file
@@ -36,6 +40,8 @@ module.exports = {
     'no-caller': 'error',
     // disallow lexical declarations in case clauses
     'no-case-declarations': 'error',
+    // disallow returning value from constructor
+    'no-constructor-return': 'error',
     // disallow division operators explicitly at the beginning of regular expressions
     'no-div-regex': 'off',
     // disallow else blocks after return statements in if statements
@@ -147,7 +153,7 @@ module.exports = {
     // require using Error objects as Promise rejection reasons
     'prefer-promise-reject-errors': ['error', { allowEmptyReject: true }],
     // disallow use of the RegExp constructor in favor of regular expression literals
-    // 'prefer-regex-literals': 'warn',
+    'prefer-regex-literals': 'off',
     // enforce the consistent use of the radix argument when using parseInt()
     'radix': 'off',
     // disallow async functions which have no await expression

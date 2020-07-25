@@ -53,8 +53,6 @@ module.exports = {
     'consistent-this': 'off',
     // require or disallow newline at the end of files
     'eol-last': ['error', 'always'],
-    // enforce line breaks between arguments of a function call
-    'function-call-argument-newline': ['off', 'consistent'],
     // require or disallow spacing between function identifiers and their invocations
     'func-call-spacing': ['error', 'never'],
     // require function names to match the name of the variable or property to which they are assigned
@@ -66,10 +64,12 @@ module.exports = {
     'func-names': 'warn',
     // enforce the consistent use of either function declarations or expressions
     'func-style': ['off', 'expression'],
+    // enforce line breaks between arguments of a function call
+    'function-call-argument-newline': ['off', 'consistent'],
     // enforce consistent line breaks inside function parentheses
     'function-paren-newline': ['error', 'consistent'],
     // disallow specified identifiers
-    'id-blacklist': 'off',
+    'id-denylist': 'off',
     // enforce minimum and maximum identifier lengths
     'id-length': 'off',
     // require identifiers to match a specified regular expression
@@ -126,7 +126,7 @@ module.exports = {
     // require empty lines around comments
     'lines-around-comment': 'off',
     // require or disallow an empty line between class members
-    'lines-between-class-members': ['error', 'always', { exceptAfterSingleLine: false }],
+    'lines-between-class-members': ['error', 'always', { exceptAfterSingleLine: true }],
     // enforce a maximum depth that blocks can be nested
     'max-depth': ['off', 4],
     // enforce a maximum line length
@@ -256,10 +256,10 @@ module.exports = {
     'no-whitespace-before-property': 'error',
     // enforce the location of single-line statements
     'nonblock-statement-body-position': ['error', 'beside', { overrides: {} }],
-    // enforce consistent line breaks inside braces
-    'object-curly-spacing': ['error', 'always'],
     // enforce consistent spacing inside braces
     'object-curly-newline': 'off',
+    // enforce consistent line breaks inside braces
+    'object-curly-spacing': ['error', 'always'],
     // enforce placing object properties on separate lines
     'object-property-newline': ['error', {
       allowAllPropertiesOnSameLine: true,
@@ -282,6 +282,8 @@ module.exports = {
     }],
     // require or disallow padding lines between statements
     'padding-line-between-statements': 'off',
+    // disallow the use of `Math.pow` in favor of the `**` operator
+    '	prefer-exponentiation-operator': 'warn',
     // disallow using Object.assign with an object literal as the first argument and prefer the use of object spread instead
     'prefer-object-spread': 'error',
     // require quotes around object literal property names
